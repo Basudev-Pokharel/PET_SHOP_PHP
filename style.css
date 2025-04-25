@@ -19,19 +19,25 @@ body {
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
   position: relative;
+  width: 100vw;
+  height: 100vh;
 }
 .box {
   position: absolute;
   min-width: 400px;
   max-width: 500px;
   margin: auto;
-  top: 50%;
   left: 50%;
+  top: 50%; /* This is added to center vertically */
   padding: 10px;
-  transform: translate(-50%, -50%);
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Fix: Vertical centering by moving up 50% */
   border-radius: 5px;
   border: 4px solid var(--heading-text-color);
 }
+
 form {
   min-height: 100px;
 }

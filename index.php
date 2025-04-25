@@ -18,21 +18,21 @@ class Dog extends Pet
 {
     public function action()
     {
-        return "$this->name. Dog Barks";
+        return "Dog Barks";
     }
 }
 class Cat extends Pet
 {
     public function action()
     {
-        return "$this->name. Cat Meow";
+        return "Cat Meow";
     }
 }
 class Bird extends Pet
 {
     public function action()
     {
-        return "$this->name. Bird Chi Chi";
+        return "Bird Chi Chi";
     }
 }
 session_start();
