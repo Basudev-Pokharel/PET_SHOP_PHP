@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-bg-color: #0a192f; /*Dary Navy for BGC */
+  --secondary-bg-color: #1f4068; /*Darker blur for BGC of containers */
+  --primary-text-color: #f4f4f4; /*Light Gray Body text, paragraph */
+  --secondary-text-color: #8892b0; /*soft blur Gray dates, captions */
+  --heading-text-color: #50e3c2; /*for Hewading , title, progress bar */
+  --success-color: #4caf50; /* Green For success yeh! */
+  --error-color: #4caf50; /* Red For warning */
+  --button--icon-hightlight-color: #e43f5a; /*Bright red for Buttons, icons, highlights. */
+  --hover-bg: #ff6f61; /*Coral for Hover effects, secondary buttons, animations.s */
+}
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+  position: relative;
+}
+.box {
+  position: absolute;
+  min-width: 400px;
+  max-width: 500px;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  padding: 10px;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  border: 4px solid var(--heading-text-color);
+}
+form {
+  min-height: 100px;
+}
+fieldset {
+  padding: 10px;
+}
+select {
+  padding: 8px;
+  border-radius: 4px;
+}
+input {
+  padding: 5px;
+  width: 100%;
+  margin: 5px 0px;
+}
+h2 {
+  text-align: center;
+  margin-top: 10px;
+}
+table {
+  width: 100%;
+  text-align: center;
+  border: 2px dotted var(--hover-bg);
+}
+table th {
+  border: 2px dotted var(--hover-bg);
+  padding: 5px;
+}
+td {
+  border: 2px dotted var(--success-color);
+  padding: 5px;
+}
